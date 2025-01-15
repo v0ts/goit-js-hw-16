@@ -1,0 +1,32 @@
+{
+  "name": "goit-js-hw-16",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v0ts/goit-js-hw-16.git"
+  },
+  "keywords": [],
+  "author": "VoTs <cybulskij2011@ukr.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/v0ts/goit-js-hw-16/issues"
+  },
+  "homepage": "https://github.com/v0ts/goit-js-hw-16#readme",
+  "description": "",
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "lodash": "^4.17.21",
+    "parcel": "^2.13.3"
+  },
+  "devDependencies": {
+    "pnotify": "^5.2.0"
+  }
+}
