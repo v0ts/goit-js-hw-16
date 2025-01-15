@@ -1,0 +1,1 @@
+{"mappings":"AAAA","sources":["src/index.css"],"sourcesContent":[".div { \r\n\tdisplay: flex;\r\n\tgap: 50px;\r\n}"],"names":[],"version":3,"file":"index.61d3354a.css.map","sourceRoot":"/__parcel_source_root/"}
